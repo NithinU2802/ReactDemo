@@ -1,5 +1,4 @@
 # ReactDemo
-
     React js is a JavaScript library for building fast and interactive user interface for the web as well as mobile applications.
 
 # Important features
@@ -7,18 +6,17 @@
     - In a Model View Controller Archi, React is the View which responsible for how the app looks and feels.
     - JSX - file to run JavaScript and HTML which integrated with eachother.
     - Consist Virtual DOM and Real DOM. React keeps a lightweight represenation of the Real DOM in the 
-memory and that is known as Virtual DOM.
+    memory and that is known as Virtual DOM.
     - When the state of an object changes, Virtual DOM changes only that object in the real DOM instead of 
-updating all the objects.
+    updating all the objects.
     - One-Way data binding keeps everything modular and faster.
     - Unidirectional dataflow means that when design a react app you often next child components within 
-parent components.
+    parent components.
     - Reacts goes beyond simple UI and has many extensions for complete applications.
     - It provides server-side rendering.
     - support mobile app development.
     - Extended with flux and redux among others.
     - components, State and Props are major component of react.
-
 # component
     - components are the building blocks of any react application and a single app usually Consist of 
     multiple components.
@@ -40,10 +38,12 @@ parent components.
         }
     }
 
+
 # State
     - state of a component is an object that holds some data.
     - These data influences the output of a component.
     - Everytime component changes data rerender on the screen.
+
 
 # Props
         - Props is short for properties that allow us to pass arguments or data to components.
@@ -71,6 +71,7 @@ parent components.
         ReactDOM.render(<App name="Nithin">, document.get ElementById('app));
         export default App;
 
+
 # Nesting component
     components are nested into main component using import and export keywords.
 
@@ -83,6 +84,7 @@ parent components.
     keyword import before it.
 
     - "import {class1,class2} from "./component"; " importing named values allows the user to import multiple object from a file.
+
 
 # Higher order and Pure components
 
